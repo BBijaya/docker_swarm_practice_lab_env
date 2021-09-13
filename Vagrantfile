@@ -56,7 +56,7 @@ Vagrant.configure("2") do |config|
             # Customize Memory and CPU count as required
             node.vm.provider :virtualbox do |vb|
                 vb.customize ["modifyvm", :id, "--memory", "1024"]
-                vb.customize ["modifyvm", :id, "--cpus", "2"]
+                vb.customize ["modifyvm", :id, "--cpus", "1"]
                 
             end
         end
