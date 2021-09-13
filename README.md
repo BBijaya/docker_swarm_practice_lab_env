@@ -89,7 +89,7 @@ docker swarm join --token <token> 172.16.0.5:2377
 docker node ls 
 ```
 <p> If it list all three nodes, the setup is ready!</p>
-<p> Once you are donw with the practice exit from the vm's and run, below comman to stop the vm's <p>
+<p> Once you are done with the practice exit from the vm's and run, below comman to stop the vm's <p>
 
 ```sh
 vagrant halt
