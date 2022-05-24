@@ -7,7 +7,7 @@ Docker swarm practice lab environment setup using vagrant file
 ## How to setup the local lab ?
 ### Pull the repo 
 ```sh
-git clone [https://github.com/BBijaya/docker_swarm_practice_lab_env.git](https://github.com/BBijaya/docker_swarm_setup.git)
+git clone https://github.com/BBijaya/docker_swarm_setup.git
 ```
 <br>
 
