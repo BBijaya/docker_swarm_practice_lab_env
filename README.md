@@ -26,6 +26,15 @@ cd docker_swarm_practice_lab_env
 ```sh
 vagrant up
 ```
+### Troubleshooting Networking Issues
+If you encounter networking errors, it is likely because VirtualBox uses the `192.168.56.0/21` range for host-only networks by default. Using IP addresses outside this range can cause errors during VM setup or networking configuration. Edit or create `/etc/vbox/networks.conf` (or `C:\Program Files\Oracle\VirtualBox\networks.conf` on Windows) and add:
+```
+* 172.16.0.0/16   
+```
+and bring the vm's up again.
+```
+vagrant up
+```
 <br>
 
 ### There  are 3 vm's setup by the default. **docker-master**,  **docker-worker1** and **docker-worker2**
